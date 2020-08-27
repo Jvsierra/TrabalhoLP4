@@ -1,4 +1,7 @@
 using System;
+using EventArgs;
+using Errors;
+using Data.SQL.Client;
 
 class Principal
 {
