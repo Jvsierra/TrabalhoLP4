@@ -20,6 +20,8 @@ class Principal
             else
                 Console.WriteLine("Iguais");
     }
+
+
 }
 
 class Secundaria()
@@ -30,6 +32,11 @@ class Secundaria()
         if (txt.Contains(';'))
             Console.Write("não ");
         Console.WriteLine("é Python");
+    }
+
+    static int Media(int a, int b)
+    {
+        //  (a + b)/2
     }
 }
 
