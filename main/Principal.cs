@@ -20,6 +20,8 @@ class Principal
             else
                 Console.WriteLine("Iguais");
     }
+
+
 }
 
 class Secundaria()
@@ -54,3 +56,4 @@ class Secundaria()
         return soma;
     }
 }
+
