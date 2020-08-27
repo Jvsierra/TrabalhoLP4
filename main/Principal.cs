@@ -43,11 +43,11 @@ class Secundaria
 
     public void Escreve()
     {
-    Console.WriteLine("Henrique - Commit função média");
-    Console.WriteLine("Commit 2 - Henrique");
-    Console.WriteLine("Commit 8 - Henrique");
-    Console.WriteLine("Commit 9 - Henrique");
-}
+        Console.WriteLine("Henrique - Commit função média");
+        Console.WriteLine("Commit 2 - Henrique");
+        Console.WriteLine("Commit 8 - Henrique");
+        Console.WriteLine("Commit 9 - Henrique");
+    }
 
     public int SomaDeDoisNumeros(int a, int b)
     {
