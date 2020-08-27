@@ -32,3 +32,5 @@ class Secundaria()
         Console.WriteLine("é Python");
     }
 }
+
+class Auxiliar(){ public void exibeOi() { Console.log('Oi'); }}
