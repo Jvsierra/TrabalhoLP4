@@ -18,3 +18,14 @@ class Principal
                 Console.WriteLine("Iguais");
     }
 }
+
+class Secundaria()
+{
+    public function ehPython()
+    {
+        string txt = Console.ReadLine();
+        if (txt.Contains(';'))
+            Console.Write("não ");
+        Console.WriteLine("é Python");
+    }
+}
