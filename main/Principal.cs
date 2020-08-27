@@ -34,10 +34,24 @@ class Secundaria()
         Console.WriteLine("é Python");
     }
 
-    static int Media(int a, int b)
+    static int MediaDeDoisNumeros(int a, int b)
     {
-        //  (a + b)/2
+        double media = 0;
+        media = a + b / 2;
+        return media;
+    }
+
+    public void Escreve()
+    {
+    Console.WriteLine("Henrique - Commit função média");
+    Console.WriteLine("Commit 2 - Henrique");
+    }
+
+    static int SomaDeDoisNumeros(int a, int b)
+    {
+        double soma = 0;
+        soma = a + b;
+        return soma;
     }
 }
 
-class Auxiliar(){ public void exibeOi() { Console.log('Oi'); }}
