@@ -4,8 +4,17 @@ class Principal
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Commit 3 - João");
-        Console.WriteLine("Commit 4 - João");
-        Console.WriteLine("Commit 5 - João");
+        Console.WriteLine("Commit 3 - Joï¿½o");
+        Console.WriteLine("Commit 4 - Joï¿½o");
+        Console.WriteLine("Commit 5 - Joï¿½o");
+
+        int a, b;
+        if (a > b)
+            Console.WriteLine(a);
+        else
+            if(b < a)
+                Console.WriteLine(b);
+            else
+                Console.WriteLine("Iguais");
     }
 }
