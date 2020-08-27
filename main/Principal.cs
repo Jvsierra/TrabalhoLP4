@@ -38,4 +38,10 @@ class Secundaria()
         media = a + b / 2;
         return media;
     }
+
+    public void Escreve()
+    {
+    Console.WriteLine("Henrique - Commit função média");
+    Console.WriteLine("Commit 2 - Henrique");
+    }
 }
