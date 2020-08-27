@@ -24,7 +24,7 @@ class Principal
 
 }
 
-class Secundaria()
+class Secundaria
 {
     public function ehPython()
     {
@@ -56,3 +56,11 @@ class Secundaria()
     }
 }
 
+class Auxiliar
+{
+    char nada;
+    public metodoAleatorio()
+    {
+        return nada;
+    }
+}
