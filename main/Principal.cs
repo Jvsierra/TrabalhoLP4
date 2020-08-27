@@ -44,7 +44,8 @@ class Secundaria()
     Console.WriteLine("Henrique - Commit função média");
     Console.WriteLine("Commit 2 - Henrique");
     Console.WriteLine("Commit 8 - Henrique");
-    }
+    Console.WriteLine("Commit 9 - Henrique");
+}
 
     static int SomaDeDoisNumeros(int a, int b)
     {
