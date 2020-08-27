@@ -57,3 +57,13 @@ class Secundaria()
     }
 }
 
+class Auxiliar()
+{
+    public void Escreve()
+    {
+    Console.WriteLine("Função Auxiliar");
+    
+    }
+
+}
+
