@@ -31,4 +31,11 @@ class Secundaria()
             Console.Write("não ");
         Console.WriteLine("é Python");
     }
+
+    static int Media(int a, int b)
+    {
+        double media = 0;
+        media = a + b / 2;
+        return media;
+    }
 }
