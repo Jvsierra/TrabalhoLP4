@@ -24,7 +24,7 @@ class Principal
 
 }
 
-class Secundaria()
+class Secundaria
 {
     public function ehPython()
     {
@@ -57,13 +57,11 @@ class Secundaria()
     }
 }
 
-class Auxiliar()
+class Auxiliar
 {
-    public void Escreve()
+    char nada;
+    public metodoAleatorio()
     {
-    Console.WriteLine("Função Auxiliar");
-    
+        return nada;
     }
-
 }
-
