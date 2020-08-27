@@ -34,7 +34,7 @@ class Secundaria()
         Console.WriteLine("é Python");
     }
 
-    static int MediaDeDoisNumeros(int a, int b)
+    public int MediaDeDoisNumeros(int a, int b)
     {
         double media = 0;
         media = a + b / 2;
@@ -49,7 +49,7 @@ class Secundaria()
     Console.WriteLine("Commit 9 - Henrique");
 }
 
-    static int SomaDeDoisNumeros(int a, int b)
+    public int SomaDeDoisNumeros(int a, int b)
     {
         double soma = 0;
         soma = a + b;
