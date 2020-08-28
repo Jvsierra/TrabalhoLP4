@@ -20,9 +20,11 @@ class Principal
             else
                 Console.WriteLine("Iguais");
     }
+
+
 }
 
-class Secundaria()
+class Secundaria
 {
     public function ehPython()
     {
@@ -30,5 +32,36 @@ class Secundaria()
         if (txt.Contains(';'))
             Console.Write("não ");
         Console.WriteLine("é Python");
+    }
+
+    public int MediaDeDoisNumeros(int a, int b)
+    {
+        double media = 0;
+        media = a + b / 2;
+        return media;
+    }
+
+    public void Escreve()
+    {
+        Console.WriteLine("Henrique - Commit função média");
+        Console.WriteLine("Commit 2 - Henrique");
+        Console.WriteLine("Commit 8 - Henrique");
+        Console.WriteLine("Commit 9 - Henrique");
+    }
+
+    public int SomaDeDoisNumeros(int a, int b)
+    {
+        double soma = 0;
+        soma = a + b;
+        return soma;
+    }
+}
+
+class Auxiliar
+{
+    char nada;
+    public metodoAleatorio()
+    {
+        return nada;
     }
 }
