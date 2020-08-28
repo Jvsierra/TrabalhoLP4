@@ -12,8 +12,10 @@ class Principal
         Console.WriteLine("Commit 5 - Jo�o");
         Console.WriteLine("Commit 6 - Jo�o");
         Console.WriteLine("Commit 7 - Jo�o");
+        
         Console.WriteLine("Commit 10 - Jo�o");
-
+        Console.Log("Last Commit");
+        
         int a, b;
         if (a > b)
             Console.WriteLine(a);
